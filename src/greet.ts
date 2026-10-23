@@ -1,1 +1,2 @@
-export const greet = (name: string) => `Hello, ${name}`;
+export const greet = (name: string) =>
+  name.trim() === "" ? "Hello, guest" : `Hello, ${name}`;

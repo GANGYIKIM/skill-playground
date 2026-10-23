@@ -24,3 +24,7 @@ Claude Code에서 이 레포를 열고 스킬을 호출합니다.
 커밋해줘
 PR 만들어줘
 ```
+
+## Usage
+
+greet("Kim")

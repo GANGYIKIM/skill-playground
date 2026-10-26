@@ -4,6 +4,7 @@ export type LoginAttempt = { success: boolean };
 export const MAX_LOGIN_FAILURES = 5;
 
 // 마지막 성공 이후 연속으로 실패한 횟수
+// 빈 배열이면 0을 돌려준다
 export const countFailures = (attempts: LoginAttempt[]) => {
   const lastSuccess = attempts.map((a) => a.success).lastIndexOf(true);
   return attempts.length - lastSuccess - 1;

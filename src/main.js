@@ -1,6 +1,6 @@
 import { validateName } from "./name-validator.js";
 
-const MAX_NAME_LENGTH = 20;
+const MAX_NAME_LENGTH = 10;
 
 const greeting = document.getElementById("greeting");
 const form = document.getElementById("name-form");

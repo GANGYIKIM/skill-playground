@@ -6,6 +6,6 @@ form.addEventListener("submit", (event) => {
   event.preventDefault();
 
   const name = input.value.trim();
-  greeting.textContent = name ? `안녕하세요, ${name}님!` : "안녕하세요!";
+  greeting.textContent = name ? `반가워요, ${name}님!` : "안녕하세요!";
   input.value = "";
 });
